@@ -85,7 +85,7 @@ footer {
     background-color: #d4c9ad;
     padding: 10px;
     text-align: center;
-}
+}   
 
 .titulos{
     padding: 0px 0px 10px 0px;
@@ -101,6 +101,43 @@ footer {
 
 li{
     padding: 0px 10px;
+}
+
+
+/* CSS referente ao Currículo */
+
+body.dark {
+    background-color: #0e0806;
+    color: #ffffff;
+}
+
+.dark header {
+    background-color: #1c110c;
+}
+
+.dark nav {
+    background-color: #1c110c;
+}
+
+.dark a {
+    color: #ffffff;
+}
+
+.dark a:hover {
+    background-color: #000000;
+    color: #5a5344;
+}
+
+.dark aside {
+    background-color: #1c110c;
+}
+
+.dark section {
+    background-color: #291912;
+}
+
+.dark footer {
+    background-color: #1c110c;
 }
 
 /* CSS referente ao Currículo */
