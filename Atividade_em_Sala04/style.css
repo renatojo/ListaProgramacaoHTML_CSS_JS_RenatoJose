@@ -62,6 +62,7 @@ aside {
     background-color: #c7ba99;
     padding: 10px;
     width: 20%;
+    border-radius: 10px;
 }
 
 .container {
@@ -76,6 +77,7 @@ section {
     margin-left: 10px;
     margin-right: 10px  ;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 footer {
