@@ -44,6 +44,8 @@ a {
     font-size: large;
     font-weight: 500;
     padding: 5px 10px 5px 10px;
+    transition: background 1s;
+    transform: translateX(0) scale(1);
 }
 
 #themeToogle {
@@ -54,7 +56,9 @@ a {
 a:hover {
     background-color: #000000;
     color: #c7ba99;
-    border-radius: 10px;
+    border-radius: 4px;
+    transform: translateX(10px) scale(1.15);
+
 }
 
 main {
