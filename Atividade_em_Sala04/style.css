@@ -31,6 +31,7 @@ nav {
     left: 0;
     width: 100%;
     z-index: 1000;
+    
 }
 
 nav{
@@ -44,6 +45,11 @@ a {
     font-weight: 500;
     padding: 5px 10px 5px 10px;
 
+}
+
+#themeToogle {
+    margin-left: 1100px;
+    padding:5px 10px 5px 10px;
 }
 
 a:hover {
@@ -62,6 +68,8 @@ main {
 aside {
     background-color: #c7ba99;
     padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
     width: 20%;
     border-radius: 10px;
 }
@@ -107,16 +115,16 @@ li{
 /* CSS referente ao Currículo */
 
 body.dark {
-    background-color: #0e0806;
+    background-color: #0D0D0D;
     color: #ffffff;
 }
 
 .dark header {
-    background-color: #1c110c;
+    background-color: #262626;
 }
 
 .dark nav {
-    background-color: #1c110c;
+    background-color: #262626;
 }
 
 .dark a {
@@ -129,15 +137,15 @@ body.dark {
 }
 
 .dark aside {
-    background-color: #1c110c;
+    background-color: #262626;
 }
 
 .dark section {
-    background-color: #291912;
+    background-color: #595959;
 }
 
 .dark footer {
-    background-color: #1c110c;
+    background-color: #262626;
 }
 
 /* CSS referente ao Currículo */
