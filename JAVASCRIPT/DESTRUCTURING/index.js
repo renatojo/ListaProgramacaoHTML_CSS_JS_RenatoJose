@@ -55,3 +55,29 @@ const credenciais = {
 const user = {...Pessoa, ...credenciais}
 
 console.log(user);
+
+// Parametros de funçoes 
+
+//const exemplo = [1,2,3,4,5,6,7,8,9,10]
+
+function maiorvalor(...params) {
+    let maior
+    for (const element of params) {
+        if (element>= maior) {
+            maior = element 
+        }
+    }
+    return maior 
+}
+
+console.log(maiorvalor(1,2,3,4,5,6,7,8,9,10));
+
+function getPessoa ({...params}) {
+    const {nome, sobrenome} = params
+    return `A Pessoa é ${nome} ${sobrenome}`
+}
+
+console.log(getPessoa(user))
+
+
+
